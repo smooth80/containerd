@@ -4,20 +4,20 @@ go 1.16
 
 require (
 	github.com/AdaLogics/go-fuzz-headers v0.0.0-20210715213245-6c3934b029d8
-	github.com/Microsoft/go-winio v0.5.0
-	github.com/Microsoft/hcsshim v0.8.18
+	github.com/Microsoft/go-winio v0.5.1
+	github.com/Microsoft/hcsshim v0.9.2
 	github.com/containerd/aufs v1.0.0
 	github.com/containerd/btrfs v1.0.0
 	github.com/containerd/cgroups v1.0.1
-	github.com/containerd/console v1.0.2
+	github.com/containerd/console v1.0.3
 	github.com/containerd/containerd/api v0.0.0
 	github.com/containerd/continuity v0.1.0
 	github.com/containerd/fifo v1.0.0
-	github.com/containerd/go-cni v1.0.2
+	github.com/containerd/go-cni v1.1.3
 	github.com/containerd/go-runc v1.0.0
-	github.com/containerd/imgcrypt v1.1.1
+	github.com/containerd/imgcrypt v1.1.4
 	github.com/containerd/nri v0.1.0
-	github.com/containerd/ttrpc v1.0.2
+	github.com/containerd/ttrpc v1.1.0
 	github.com/containerd/typeurl v1.0.2
 	github.com/containerd/zfs v1.0.0
 	github.com/containernetworking/plugins v0.9.1
@@ -42,8 +42,8 @@ require (
 	github.com/moby/sys/signal v0.5.1-0.20210723232958-8a51b5cc8879
 	github.com/moby/sys/symlink v0.1.0
 	github.com/opencontainers/go-digest v1.0.0
-	github.com/opencontainers/image-spec v1.0.1
-	github.com/opencontainers/runc v1.0.1
+	github.com/opencontainers/image-spec v1.0.2
+	github.com/opencontainers/runc v1.0.2
 	github.com/opencontainers/runtime-spec v1.0.3-0.20210326190908-1c3f411f0417
 	github.com/opencontainers/selinux v1.8.2
 	github.com/pelletier/go-toml v1.8.1
@@ -60,11 +60,11 @@ require (
 	go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc v1.0.0-RC1
 	go.opentelemetry.io/otel/sdk v1.0.0-RC1
 	go.opentelemetry.io/otel/trace v1.0.0-RC1
-	golang.org/x/net v0.0.0-20210520170846-37e1c6afe023
+	golang.org/x/net v0.0.0-20210825183410-e898025ed96a
 	golang.org/x/sync v0.0.0-20210220032951-036812b2e83c
-	golang.org/x/sys v0.0.0-20210630005230-0f9fa26af87c
-	google.golang.org/grpc v1.38.0
-	google.golang.org/protobuf v1.26.0
+	golang.org/x/sys v0.0.0-20211216021012-1d35b9e2eb4e
+	google.golang.org/grpc v1.43.0
+	google.golang.org/protobuf v1.27.1
 	gotest.tools/v3 v3.0.3
 	k8s.io/api v0.22.0
 	k8s.io/apimachinery v0.22.0
