@@ -9,7 +9,7 @@ require (
 	github.com/containerd/aufs v1.0.0
 	github.com/containerd/btrfs v1.0.0
 	github.com/containerd/cgroups v1.0.1
-	github.com/containerd/console v1.0.2
+	github.com/containerd/console v1.0.3
 	github.com/containerd/containerd/api v0.0.0
 	github.com/containerd/continuity v0.1.0
 	github.com/containerd/fifo v1.0.0
@@ -38,14 +38,14 @@ require (
 	github.com/imdario/mergo v0.3.12
 	github.com/klauspost/compress v1.11.13
 	github.com/moby/locker v1.0.1
-	github.com/moby/sys/mountinfo v0.4.1
+	github.com/moby/sys/mountinfo v0.5.0
 	github.com/moby/sys/signal v0.5.1-0.20210723232958-8a51b5cc8879
 	github.com/moby/sys/symlink v0.1.0
 	github.com/opencontainers/go-digest v1.0.0
 	github.com/opencontainers/image-spec v1.0.1
-	github.com/opencontainers/runc v1.0.1
+	github.com/opencontainers/runc v1.1.2
 	github.com/opencontainers/runtime-spec v1.0.3-0.20210326190908-1c3f411f0417
-	github.com/opencontainers/selinux v1.8.2
+	github.com/opencontainers/selinux v1.10.0
 	github.com/pelletier/go-toml v1.8.1
 	github.com/pkg/errors v0.9.1
 	github.com/prometheus/client_golang v1.11.0
@@ -62,9 +62,9 @@ require (
 	go.opentelemetry.io/otel/trace v1.0.0-RC1
 	golang.org/x/net v0.0.0-20210520170846-37e1c6afe023
 	golang.org/x/sync v0.0.0-20210220032951-036812b2e83c
-	golang.org/x/sys v0.0.0-20210630005230-0f9fa26af87c
+	golang.org/x/sys v0.0.0-20211116061358-0a5406a5449c
 	google.golang.org/grpc v1.38.0
-	google.golang.org/protobuf v1.26.0
+	google.golang.org/protobuf v1.27.1
 	gotest.tools/v3 v3.0.3
 	k8s.io/api v0.22.0
 	k8s.io/apimachinery v0.22.0
